@@ -13,6 +13,7 @@
 		B0E9EF8226E79ECA0047A7DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E9EF8026E79ECA0047A7DA /* Main.storyboard */; };
 		B0E9EF8426E79ECE0047A7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E9EF8326E79ECE0047A7DA /* Assets.xcassets */; };
 		B0E9EF8726E79ECE0047A7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E9EF8526E79ECE0047A7DA /* LaunchScreen.storyboard */; };
+		B0E9EF8F26E7B4B60047A7DA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E9EF8E26E7B4B60047A7DA /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B0E9EF8326E79ECE0047A7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0E9EF8626E79ECE0047A7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0E9EF8826E79ECE0047A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E9EF8E26E7B4B60047A7DA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B0E9EF8326E79ECE0047A7DA /* Assets.xcassets */,
 				B0E9EF8526E79ECE0047A7DA /* LaunchScreen.storyboard */,
 				B0E9EF8826E79ECE0047A7DA /* Info.plist */,
+				B0E9EF8E26E7B4B60047A7DA /* SecondViewController.swift */,
 			);
 			path = semana4;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E9EF8F26E7B4B60047A7DA /* SecondViewController.swift in Sources */,
 				B0E9EF7F26E79ECA0047A7DA /* ViewController.swift in Sources */,
 				B0E9EF7B26E79ECA0047A7DA /* AppDelegate.swift in Sources */,
 				B0E9EF7D26E79ECA0047A7DA /* SceneDelegate.swift in Sources */,
