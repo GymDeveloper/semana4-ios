@@ -10,11 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var iconButtonMobile: UIBarButtonItem!
+    @IBOutlet weak var btnNext: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        iconButtonMobile.image = UIImage(named: "mobile")?.withRenderingMode(.alwaysOriginal)
+        btnNext.image = UIImage(named: "right-arrow")?.withRenderingMode(.alwaysOriginal)
+//        btnNext.image = UIImage(named: "next")?.withRenderingMode(.alwaysOriginal)
 
         print("mi pantalla inicio")
     }
